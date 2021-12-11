@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rancho&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+body {
+  background-color: #39044b;
+}
+h1 {
+  font-family: rancho;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+h3 {
+  font-family: rancho;
+  color: white;
+  text-align: center;
+}
+ol {
+  font-family: red rose;
+  color: white;
+}
+p {
+  font-family: dancing script;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 45px;
+  padding: 20px;
+}
+nav {
+  background-color: #1a1919;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+#photography div {
+  width: 80%;
+  padding: 10%;
+  justify-content: center;
+}
+#photoshop {
+  display: flex;
+  margin: 20%;
+  justify-content: center;
+  gap: 35px;
+}
+.photos {
+  width: 90%;
+  justify-content: center;
+  gap: 10px;
+}
+#illustration {
+  justify-content: center;
+  column-gap: 20px;
+  }
+h2 {
+  font-family: rancho;
+  color: white;
+  margin: 5%;
+}
+#modeling {
+  width: 80%;
+  padding: 10%;
+  justify-content: center;
+}
+.container {
+  justify-content: center;
+}
